@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+    <style>
+        body {
+            font: normal 50pt arial;
+        }
+    </style>
+</head>
+<body>
+   
+    <script>
+
+        let nome = prompt("Digite um nome:"); // Solicita que o usuário digite um nome
+
+        if (nome.length > 8) {
+        console.log("O nome tem mais de 8 letras.");
+        } else if (nome.length < 8) {
+        console.log("O nome tem menos de 8 letras.");
+        } else {
+        console.log("O nome tem exatamente 8 letras.");
+        }
+
+        
+        var n = window.prompt('Qual é seu nome?')
+        document.write(`Olá ${nome}. Seu nome tem ${nome.length} letras.  `) 
+        if ((`${nome.length != 7}`)) {
+            document.write('Você é uma pessoa normal')
+        } else 
+            (`${nome.length > 7}`)
+            document.write('!')
+        
+        
+    </script>
+</body>
+</html>

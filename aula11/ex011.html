@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time do coração</title>
+</head>
+
+<body>
+    <h1>Qual é seu time</h1>
+    Pra qual time você torce? <input type="text" name="txttime" id="txttime">
+    <input type="button" value="Verificar" onclick="mostrar()">
+    <div id="res">
+        
+    </div>
+    <script>
+        function mostrar() {
+            var time = window.document.querySelector('input#txttime')
+            var res = window.document.querySelector('div#res')
+            var time = (time.value)
+            res.innerHTML = `Seu time é ${time}`
+        } if (txt.time != 'Corinthians') {
+            res.innerHTML += `Aprende a escolher um time`
+        } else {
+            res.innerHTML += `Aí sim`
+        }
+
+    </script>
+</body>
+
+</html>
